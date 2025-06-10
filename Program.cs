@@ -10,6 +10,8 @@ namespace GitLabApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите число X");
+            Console.Write("X = ");
             string s = Console.ReadLine();
             double x = double.Parse(s);
             double F = Math.Sin(x) - 2 * Math.Cos(x);
